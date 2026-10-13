@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'" />
+    <title>BuildCraft</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="titlebar">
+      <div class="brand" id="brand"></div>
+      <div class="tb-crumb" id="crumb"></div>
+      <div class="tb-spacer"></div>
+      <div class="tb-actions">
+        <button class="update-pill" id="update-pill" hidden></button>
+        <button class="icon-btn" id="btn-theme" title="Thème"></button>
+      </div>
+    </header>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sb-head"><button class="btn primary" id="btn-new"></button></div>
+        <div class="sb-label"><span>Mes serveurs</span><span id="srv-count"></span></div>
+        <div class="server-list" id="server-list"></div>
+        <nav class="sb-nav" id="sb-nav"></nav>
+      </aside>
+      <main class="main" id="main"></main>
+    </div>
+    <script src="dist/renderer.js"></script>
+  </body>
+</html>
