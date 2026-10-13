@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: https://github.com/Maxence-P-dev/buildcraft/releases/download/v1.0.0/BuildCraft-Setup.exe
+    sha512: vxZpmMCDJc9Bbf4IvcY/X0rY3PvIvAAUL/I3250d8NMXC3PkQGCGpUeRdhAxmY5kaoZJRssm/A7ZSr8HGN20bg==
+    size: 169856928
+path: https://github.com/Maxence-P-dev/buildcraft/releases/download/v1.0.0/BuildCraft-Setup.exe
+sha512: vxZpmMCDJc9Bbf4IvcY/X0rY3PvIvAAUL/I3250d8NMXC3PkQGCGpUeRdhAxmY5kaoZJRssm/A7ZSr8HGN20bg==
+releaseDate: '2026-10-13T09:36:38.951Z'
